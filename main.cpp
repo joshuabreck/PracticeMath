@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 {
 	if (argc > 1)
 	{
-		if (Compare(argv[1], "h"))
+		if (Compare(argv[1], "-h"))
 		{
 			std::cout << "PracticeMath {operator symbol [ +,-,x,/ ]} {ceiling1 [ int ]} {ceiling2 [ int ]} {includeZero [ t,f ]}";
 			return 0;
